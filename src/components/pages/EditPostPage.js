@@ -1,8 +1,13 @@
 import PageTitle from '../common/PageTitle';
+import EditPostForm from '../features/EditPostForm';
+import PageContainer from '../views/PageContainer'
 
 const EditPostPage = props => {
     return (
-        <PageTitle>Edit Post</PageTitle>
+        <PageContainer>
+            <PageTitle>Edit Post</PageTitle>
+            <EditPostForm />
+        </PageContainer>
     );
 };
 
